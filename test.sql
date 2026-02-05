@@ -1,0 +1,1 @@
+select * from quick_sales;
