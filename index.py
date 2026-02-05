@@ -41,7 +41,7 @@ def manage_sales_data():
         cur.execute("SELECT * FROM quick_sales;")
         rows = cur.fetchall()
 
-        print("\n--- Current Sales Inventory ---")
+        print("\n--- Current Sales Inventory tabless ---")
         for row in rows:
             print(f"ID: {row[0]} | Item: {row[1]} | Price: ${row[2]}")
 
