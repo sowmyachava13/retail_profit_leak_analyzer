@@ -1,2 +1,1 @@
-select * from quick_sales;
-import pandas as pd
+select * from public.superstore_sales;
