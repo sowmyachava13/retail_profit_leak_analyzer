@@ -35,7 +35,7 @@ def manage_sales_data():
 
         # Commit changes
         conn.commit()
-        print("Data inserted successfully.")
+        print("Data inserted successfully into table.")
 
         # 5. Query the data
         cur.execute("SELECT * FROM quick_sales;")
@@ -57,3 +57,4 @@ def manage_sales_data():
 
 if __name__ == "__main__":
     manage_sales_data()
+# test comment
