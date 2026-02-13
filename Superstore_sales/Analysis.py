@@ -63,4 +63,5 @@ sns.barplot(data=df, x='category', y='margin', hue='category', palette='magma', 
 plt.title('Average Profit Margin % per Category')
 plt.ylabel('Margin (%)')
 plt.show()
+plt.savefig('profit_analysis.png')
 engine.dispose()
