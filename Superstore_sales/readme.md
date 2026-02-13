@@ -1,6 +1,6 @@
 # Superstore Sales & Profitability Analysis
 
-## Project Objective
+## Project Objective:
 This project analyzes retail sales data to identify "profit leaks"—areas where the company is losing money despite high sales volume. The goal is to provide actionable insights for regional managers to optimize their discount strategies and shipping logistics.
 
 ##  Tech Stack
